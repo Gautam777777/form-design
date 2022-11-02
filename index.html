@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS FORM DESIGN</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                background: #F3E0E2;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            .MYFORM{
+                width: 60%;
+                height: 600px;
+                background: red;
+                margin: 70px auto;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.2);
+                clear: both;
+            }
+
+            form.MYFORM > div{
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+
+            .box1{
+                background: #FFF;
+            }
+            .box2{
+                background-image: -webkit-linear-gradient(left,#FF464C,#FF416B);
+                color: #FFF;
+                text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+            }
+            .h{
+                margin: 190px 75px;
+            }
+
+            .white{
+                margin: 100px;
+            }
+            .common{
+                width:40px;
+                height:40px;
+                display: inline-block;
+                border-radius: 40px;
+                border: 1px solid#303030;
+                line-height: 40px;
+                color: #303030;
+                font-size: 1.2em;
+            }
+
+            .MYFORM input[type="text"],[type="password"]{
+                width: 96%;
+                padding: 10px 0px 10px 10px;
+                margin: 5px 0px;
+                border: none;
+                background: #EFEFEF;
+                
+            }
+
+            input[type="button"]{
+                background: #FF4A27;
+                color: #fff;
+                border: none;
+                font-size: 1.3em;
+                font-weight: bold;
+                padding: 5px 30px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            .space{
+                margin: 20px;
+            }
+
+            .forget{
+                color: #303030;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form class="MYFORM">
+            <div class="box1">
+                <div class="white">
+                    <h1>Login</h1>
+                    <a href="#" class="common">
+                        <i class="fa-brands fa-facebook-f"></i> 
+                    </a>
+                    <a href="#" class="common">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <p>or use your account</p>
+
+                    <input type="text" placeholder="Email" name="email"  />
+                    <input type="password" placeholder="Password" name="password" />
+
+                    <div class="space">
+                        <a href="#" class="forget">Forget your password ?</a>
+                    </div>
+                    <div>
+                        <input type="button" value="LOG IN"  />
+                    </div>
+                    
+                </div>    
+   
+            </div>
+            <div class="box2">
+                <div class="h">
+                     <h1>HTML CSS LOGIN FORM</h1>
+                     <P>
+                         This login form is created using pure HTML and CSS.for social icons,FontAwesome is used.
+                     </P>
+                </div>
+            </div>
+        </form>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>
